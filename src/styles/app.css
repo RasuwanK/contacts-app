@@ -15,7 +15,7 @@
     height: auto;
     display:flex;
     flex-direction:column;
-    background-color: rgb(244, 245, 241);
+    background-color:  #ceb7e5;
     align-items:center;
 }
 
@@ -24,6 +24,7 @@
     width:100%;
     font-family: 'Source sans pro';
     font-weight:600;
+    color:#6d1fad;
     height: auto;
 }
 
@@ -47,6 +48,10 @@
 .label {
     font-family: 'Source sans pro';
     font-size:20px;
+    background-color: #673499;
+    color:#e0dae5;
+    margin-top:20px;
+    box-shadow:1px 2px 5px #afa3a3;
     justify-content: center;
     display:flex;
     width:80%;

@@ -3,6 +3,13 @@ import Label from './Label';
 
 import './styles/app.css';
 
+const contacts = [
+    {first:'Rasuwan',second:'Kalhara'},
+    {first:'Nethula',second:'Dulsara'},
+    {first:'Nippl',second:'Pip'},
+    {first:'Desmond',second:'Miles'}
+]
+
 const App = () => {
     return (
         <div className='main'>
@@ -11,8 +18,9 @@ const App = () => {
                     <h1 className='title'>Contacts</h1>
                 </div>
                 <div className='contacts'>
-                    <Label name={{first:"Rasuwan",second:"Kalhara"}} />
-                    <Label name={{first:"Judd",second:"Vinnet"}} />
+                    {contacts.map((contact)=> {
+                        return <Label name={contact} />
+                    })}
                 </div>
             </div>
         </div>
