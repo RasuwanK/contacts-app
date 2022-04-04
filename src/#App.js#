@@ -11,10 +11,8 @@ function foo() {
 
 const contacts = [
     {first:'Rasuwan',second:'Kalhara'},
-    {first:'Nethula',second:'Dulsara'},
-    {first:'Nippl',second:'Pip'},
-    {first:'Desmond',second:'Miles'}
-]
+    {first:'Nethula',second:'Dulsara'}, {first:'Nippl',second:'Pip'},
+    {first:'Desmond',second:'Miles'} ]
 
 const App = () => {
     return (
